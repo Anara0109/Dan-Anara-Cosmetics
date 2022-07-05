@@ -33,7 +33,9 @@
                
         </div>
         </div>
-        <div class="box">Вернуться на главную</div>
+        <div class="box">
+            <a href="./order.html">Вернуться на главную</a>
+        </div>
         <div class="box1">Личный кабинет</div>
         <div class="Ellipse">
             <img src="./img/Ellipse.jpg" alt="">
