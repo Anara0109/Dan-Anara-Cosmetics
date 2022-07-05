@@ -24,11 +24,8 @@
 } 
 
 .loveliness{
-    position: absolute;
-    width: 402px;
+    width: 100%;
     height: 29px;
-    left: 759px;
-    top: 39px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
@@ -37,38 +34,39 @@
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #000000;
+    text-align: center;
 }
 
-.flower1{
+.flower{
+    position: relative;
+    z-index: 2;
+}
+
+.flower::before{
+    content: ;
     position: absolute;
     width: 54px;
     height: 61px;
-    left: 732px;
-    top: 16px;
+    left: 710px;
+    top: 10px;
     z-index: -2;
-    background: url(/img/flower\ 1.jpg);
+    background: url(./img/flower1.jpg);
 }
 
 .flower2{
     position: absolute;
     width: 54px;
     height: 61px;
-    left: 1195.87px;
-    top: 81.16px;
+    left: 1105px;
+    top: 15px;
     z-index: -1;
-    background: url(/img/flower2.jpg);
+    background: url(./img/flower2.jpg);
     transform: rotate(162.46 deg);
 }
 
 .main{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 1920px;
-    height: 2186px;
-    left: 0px;
-    top: 106px;
-    background-color: #fefffa;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 #info{
@@ -83,11 +81,6 @@
     letter-spacing: 0.1em;
     text-transform: capitalize;
     color: #000000;
-}
-
-.catalog{
-    width: 85px;
-    left: 452px;
 }
 
 .akcii{
@@ -112,6 +105,21 @@
 
 .box{
     position: absolute;
+    width: 213px;
+    height: 22px;
+    left: 190px;
+    top: 221px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.box1{
+    position: absolute;
     width: 442px;
     height: 44px;
     left: 321px;
@@ -135,5 +143,65 @@
     background: #FF9B9B;
 }
 
+.box3{
+    position: absolute;
+    width: 73px;
+    height: 17px;
+    left: 160px;
+    top: 380px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #000000;
+}
 
+.name{
+    position: relative;
+    width: 297px;
+    height: 29px;
+    left: 840px;
+    top: 471px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000
+}
+
+.balance{
+    width: 144px;
+    height: 22px;
+    left: 8px;
+    top: 471px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000
+}
   
+.catalog{
+    display: flex;
+    justify-content: space-around;
+}
+
+.kartina1{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    top: 500px;
+    z-index: -1;
+}
+
+.kartina2{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    top: 500px;
+    z-index: -2;
+}
