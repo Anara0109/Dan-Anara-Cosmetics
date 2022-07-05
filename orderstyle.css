@@ -300,7 +300,7 @@ footer{
 }
 
 .flower::before{
-    content: url('./../Dan-Anara-Cosmetics/background_images/flower23.png');
+    content: url('.//../background_images/flower23.png');
     width: 54px;
     height: 61px;
     position: absolute;
@@ -310,7 +310,7 @@ footer{
 }
 
 .flower::after{
-    content: url('./../Dan-Anara-Cosmetics/background_images/flower22.png');
+    content: url('.//../background_images/flower22.png');
     width: 54px;
     height: 61px;
     position: absolute;
